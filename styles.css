@@ -24,10 +24,32 @@
     "picture name name level"
     "picture origin class level" 
     "picture race moral level";
+    grid-template-columns: 3fr 2fr 2fr 2fr;
     background-color: black;
 }
 
 .profile > div {
     text-align: center;
     margin: 1px;
+}
+
+.skills {
+    height: 300px;
+    display: grid;
+    grid-template-areas: 
+    "Força Inteligência"
+    "Destreza Sabedoria"
+    "Constituição Carisma";
+    background-color: black;
+}
+
+.skills > div {
+    text-align: center;
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.weapons {
+    height: 150px;
+    background-color: black;
 }
