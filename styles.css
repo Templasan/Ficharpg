@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-areas: 
+    "Informações pericias"
+    "Atributos Ataques"
+    "Magias Magias";
+    gap: 4%;
+    margin: 4%;
+}
+
+.main-grid > div {
+    background-color: blue;
+}
+
+.profile {
+    height: 300px;
+    display: grid;
+    grid-template-areas: 
+    "picture name name level"
+    "picture origin class level" 
+    "picture race moral level";
+    background-color: black;
+}
+
+.profile > div {
+    text-align: center;
+    margin: 1px;
+}
